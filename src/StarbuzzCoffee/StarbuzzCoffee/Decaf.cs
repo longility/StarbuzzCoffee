@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace StarbuzzCoffee
 {
     class Decaf : Beverage
@@ -9,9 +8,9 @@ namespace StarbuzzCoffee
             get { return "Decaf coffee"; }
         }
 
-        public override Decimal Cost
+        public override decimal Cost
         {
-            get { return 2.49M; }
+            get { return 2.49M + CondimentCost; }
         }
     }
 }

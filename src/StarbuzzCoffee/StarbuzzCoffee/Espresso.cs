@@ -1,17 +1,16 @@
-﻿using System;
-
+﻿
 namespace StarbuzzCoffee
 {
-    class HouseBlend : Beverage
+    class Espresso : Beverage
     {
         public override string Description
         {
             get { return "Espresso"; }
         }
 
-        public override Decimal Cost
+        public override decimal Cost
         {
-            get { return 2.79M; }
+            get { return 2.79M + CondimentCost; }
         }
     }
 }

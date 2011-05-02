@@ -10,7 +10,7 @@ namespace StarbuzzCoffee
 
         public override decimal Cost
         {
-            get { return 3.99M + CondimentCost; }
+            get { return 3.99M; }
         }
     }
 }
